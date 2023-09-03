@@ -1,0 +1,210 @@
+
+.navbar, .navbar-outer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 2000px;
+    position: fixed;
+    top: 1px;
+    
+    background-color: solid white;
+
+}
+
+.navbar{
+    background-color: white;
+}
+.navbar-outer{
+    background-color: white;
+}
+.navigation{
+    background-color: white;
+}
+
+*{
+    font-family: cursive;
+    font-style: italic;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+}
+
+
+.header{
+    margin-top: 50px;
+    background-color: #2f80ed;
+    text-align: center;
+    color: white;
+    line-height: 35px;
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    transition: none;
+    
+}
+
+
+.hero-section{
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    padding: 0px;
+    background: url(https://acciojob.com/_next/static/media/purple_arraow.e16eb7db.svg);
+    background-position: 60% 73%;
+    background-repeat: no-repeat;
+    background-size: 7%;
+}
+
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+    width: 60%;
+    padding: 15px;
+}
+
+.hero-heading{
+    position: relative;
+    width: 85%;
+    font-weight: 400;
+    font-size: 50px;
+    color: #2b2f34;
+    text-align: left;
+}
+
+.hero-heading-blue{
+    font-weight: 400;
+    color: #2f80ed;
+}
+
+.hero-subheading{
+    width: 75%;
+    font-weight: 200;
+    font-size: 18px;
+    color: #595959;
+    font-style: normal;
+    
+}
+.img{
+    margin-left: -40px;
+    margin-top: -15px;
+}
+
+.text{     
+    padding: 10px 20px 10px 20px;
+    border-radius: 23px;
+    gap: 10px;
+
+    font-style: normal;
+    box-shadow: 0px 2px 40px 0px #0000001F;  
+}
+
+.login-section{
+    margin-left: 55%;
+    margin-top: -45%;
+}
+
+.courses-section{
+    margin-top: 50px;
+}
+
+.Companies-section{
+    margin-top: 100px;
+}
+
+
+h6{
+    text-align: center;
+    color: #ba72f1;
+    padding-top: 55px;
+}
+
+h4{
+    text-align: center;
+    color: #2f80ed;
+}
+
+.course-1{
+    margin-left: 15%;
+
+}
+.course-2{
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.course-1:hover{
+    background-color: #2f80ed;
+}
+
+.course-2:hover{
+    background-color: #2f80ed;
+}
+
+.courses-section{
+    width: 100%;
+    height: 800px;
+    background-color: #ecf8ff;
+}
+
+.black-subheading{
+    color: black;
+}
+.package{
+    color: #2b2f34;
+    text-align: center;
+    font-style: normal;
+}
+
+.row-1{
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.button{
+    margin-top: 50px;
+}
+
+.testimonials{
+    margin-top: 100px;
+}
+
+.testimonials-section,.testimonials-section-1{
+    margin-left: 50px;
+    display: flex;
+}
+
+.Student-testimonial{
+
+    margin-top: 100px;
+    height: 250px;
+    width: 400px;
+    box-shadow: 0px 2px 40px 0px #0000001F;
+    border: 2px 2px 2px 2px #d7d7d7;
+    border-radius: 20px;
+    padding: 24px;
+    margin-left: 50px;
+    
+}
+
+.name{
+    text-align: center;
+}
+.role{
+    text-align: center;
+}
+
+.msg{
+    color: #595959;
+}
